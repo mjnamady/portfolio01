@@ -1,0 +1,1123 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* MY CODE */
+
+
+/* FONT INCLUDED! */
+@font-face {
+    src: url(fonts/FredokaOne-Regular.ttf);
+    font-family: fredoka;
+}
+
+@font-face {
+  src: url(fonts\GreatVibes-Regular.ttf);
+  font-family: GreatVibes;
+}
+
+@font-face {
+  src: url(fonts\Righteous-Regular.ttf);
+  font-family: Righteous;
+}
+
+body {
+    background-color: #E4E4E4;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* HEADER SECTION F5F5F5 */
+
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #F5F5F5;
+  z-index: 100;
+  border-bottom: 1px dotted #279186;
+}
+
+header .hdr-wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+header .mj-logo {
+  width: fit-content;
+  display: block;
+  font-size: 24px;
+  font-family: fredoka;
+  font-weight: 900;
+  color: #279186;
+  text-transform: uppercase;
+  margin: 0 auto;
+  line-height: 50px;
+  text-align: center;
+}
+
+header ul {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+header ul li {
+  float: left;
+  list-style: none;
+  line-height: 40px;
+  position: relative;
+}
+
+header ul li a {
+  display: block;
+  font-family: fredoka;
+  font-size: 16px;
+  color: #222;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+header ul li a:hover {
+  color: #279186;
+}
+
+header ul li ul {
+  display: none;
+  position: absolute;
+  margin-left: -30px;
+  background-color: rgba(245, 245, 245, 90%);
+  padding: 10px;
+  border-bottom: 1px dotted #279186;
+  border-right: 1px dotted #279186;
+  border-left: 1px dotted #279186;
+}
+
+header ul li ul li {
+  text-align: center;
+  width: 180px;
+  line-height: 20px;
+}
+
+header ul li ul li a {
+  padding: 15px;
+  font-size: 14px;
+}
+
+header ul li:hover ul {
+  display: block;
+}
+
+header .get-in-touch {
+    display: none;
+}
+
+.wrapper {
+  width: 100%;
+  background-color: #F5F5F5;
+}
+
+
+/* END OF HEADER SECTION */
+
+/* BANNER SECTION */
+
+.header-banner {
+  width: 100%;
+}
+
+.header-banner .img {
+  width: 100%;
+  height: 550px;
+  background-image: url(../images/mjnamady.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.header-banner .mj-infor {
+  width: 100%;
+
+  background-color: #279186;
+  padding: 30px 0px;
+}
+
+.mj-infor h2 {
+  font-size: 24px;
+  font-family: fredoka;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  text-shadow: 10px 10px 11px #222;
+  line-height: 40px;
+}
+
+.mj-infor p {
+  font-size: 16px;
+  font-family: Righteous;
+  font-style: italic;
+  font-weight: 200;
+  line-height: 30px;
+  color: #111;
+  text-align: center;
+  text-shadow: 8px 8px 10px #111;
+  margin: 20px 6px 30px;
+}
+
+.banner-cases-link {
+  display: block;
+  width: 100px;
+  padding: 15px;
+  background-color: #222;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 0 auto;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* ARTICLE SECTION */
+
+.article {
+  width: 100%;
+}
+
+.article h2 {
+  font-size: 24px;
+  font-family: fredoka;
+  font-weight: bold;
+  color: #222;
+  text-align: center;
+  text-shadow: 8px 8px 15px #279186;
+  line-height: 30px;
+  margin: 20px auto;
+}
+
+.article p {
+  font-size: 20px;
+  font-family: arial;
+  font-style: italic;
+  font-weight: 200;
+  line-height: 30px;
+  color: #222;
+  padding: 20px 10px 30px;
+  border-bottom: 1px dotted #279186;
+  margin-bottom: 10px;
+}
+
+/* SAMPLE CASES SECTION */
+
+.sample-cases {
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+.sample-cases h2 {
+  font-size: 24px;
+  font-family: fredoka;
+  font-weight: bold;
+  color: #222;
+  text-align: center;
+  text-shadow: 8px 8px 15px #279186;
+  line-height: 30px;
+  margin: 0px auto;
+  text-transform: capitalize;
+}
+
+.sample-cases p {
+  font-size: 16px;
+  font-family: arial;
+  font-style: italic;
+  font-weight: 200;
+  color: #222;
+  text-align: center;
+}
+
+.case01 {
+  position: relative;
+  width: 80%;
+  height: 250px;
+  margin: 30px auto 0;
+  border-radius: 5px;
+  background-image: url(../images/kingster-best-education-wordpress-theme.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+}
+
+.case01 h2 {
+  color: #fff;
+  padding-top: 25%;
+}
+
+.Top-layer-tr {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(31, 31, 31, 50%);
+  z-index: 1;
+}
+
+.case01 a {
+  display: block;
+  width: 75px;
+  margin: 0 auto;
+  font-size: 16px;
+  font-family: fredoka;
+  font-weight: 100;
+  color: #fff;
+  text-transform: uppercase;
+  border-bottom: 3px solid #279186;
+  padding-top: 25px;
+}
+
+.case02 {
+  position: relative;
+  width: 80%;
+  height: 250px;
+  margin: 30px auto 0;
+  border-radius: 5px;
+  background-image: url(../images/websitedesign-1568x768.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+}
+
+.case02 h2 {
+  color: #fff;
+  padding-top: 25%;
+}
+
+.Top-layer-tr {
+  width: 100%;
+  height: 100%;
+  background-color: #222;
+  opacity: 70%;
+}
+
+.case02 a {
+  display: block;
+  width: 75px;
+  margin: 0 auto;
+  font-size: 16px;
+  font-family: fredoka;
+  font-weight: 100;
+  color: #fff;
+  text-transform: uppercase;
+  border-bottom: 3px solid #279186;
+  padding-top: 25px;
+}
+
+.case03 {
+  display: block;
+  position: relative;
+  width: 80%;
+  height: 250px;
+  margin: 30px auto 0;
+  border-radius: 5px;
+  background-image: url(../images/xd.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+}
+
+.case03 h2 {
+  color: #fff;
+  padding-top: 25%;
+}
+
+.Top-layer-tr {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #222;
+  opacity: 70%;
+}
+
+.case03 a {
+  display: block;
+  width: 75px;
+  margin: 0 auto;
+  font-size: 16px;
+  font-family: fredoka;
+  font-weight: 100;
+  color: #fff;
+  text-transform: uppercase;
+  border-bottom: 3px solid #279186;
+  padding-top: 25px;
+}
+
+/* CONTACT ME SECTION */
+
+.contact-me {
+  width: 100%;
+  background-color: #242424;
+  padding: 30px 0;
+}
+
+.contact-me h2 {
+  font-size: 24px;
+  font-family: fredoka;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  text-shadow: 8px 8px 15px #279186;
+  line-height: 30px;
+  margin: 20px auto;
+  text-transform: capitalize;
+}
+
+.contact-me form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.contact-me form input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: none;
+}
+
+.contact-me form textarea {
+  width: 90%;
+  height: 150px;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+  border: none;
+}
+
+.contact-me form button {
+  display: block;
+  width: 150px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  margin: 0 auto;
+  background-color: #279186;
+  color: #fff;
+  font-size: 20px;
+  font-family: arial;
+  border: none;
+  cursor: pointer;
+}
+
+.social-media {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+  margin: 70px 0 50px;
+  border-top: 5px dotted #279186;
+}
+
+.social-media h2 {
+  display: none;
+  font-size: 24px;
+  font-family: fredoka;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  text-shadow: 8px 8px 15px #279186;
+  line-height: 30px;
+  margin: 20px auto;
+  text-transform: capitalize;
+  }
+
+.social-media a {
+  margin: 10px;
+}
+
+.whatsapp {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.whatsapp img {
+  width: 50px;
+}
+
+.whatsapp p {
+  font-size: 20px;
+  font-family: arial;
+  font-weight: 200;
+  color: #fff;
+  padding-top: 12px;
+}
+
+/* FOOTER SECTION */
+
+footer {
+  width: 100%;
+  padding: 30px 0;
+  background-color: #1F1F1F;
+}
+
+footer h2 {
+  font-size: 40px;
+  font-family: arial;
+  font-weight: bold;
+  color: #279186;
+  line-height: 30px;
+  margin: 20px 20px;
+  text-transform: uppercase;
+
+}
+
+footer h4 {
+  font-size: 30px;
+  font-family: arial;
+  color: #fff;
+  line-height: 40px;
+  margin: 20px 20px;
+  text-transform: capitalize;
+  margin-top: 40px;
+}
+
+footer p {
+  width: fit-content;
+  font-size: 20px;
+  font-family: arial;
+  font-weight: 100;
+  line-height: 30px;
+  color: #fff;
+  padding: 20px 0px 0 20px;
+}
+
+footer .mj-footer-infor img {
+  width: 50px;
+  float: right;
+  margin: 20px 20px 0 0;
+}
+
+.footer-header-infor {
+  display: none;
+  width: 40%;
+  margin: 0 auto;
+}
+
+footer #copyR {
+  color: #279186;
+}
+
+/* ABOUT-ME SECTION */
+
+.wrapper .about-img {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  margin-top: 60px;
+  background-image: url(../images/mjnamady-about.jpg);
+  background-size: cover;
+  background-position: top;
+}
+
+.wrapper .about-img h3 {
+  position: absolute;
+  top: 370px;
+  font-size: 16px;
+  font-family: Righteous;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  background-color: rgba(39, 145, 134, 50%);
+  color: #fff;
+}
+
+.about-infor {
+  width: 90%;
+  padding: 15px;
+}
+
+.about-infor h2 {
+  font-size: 40px;
+  font-family: arial;
+  font-weight: bold;
+  color: #279186;
+  margin: 20px 0;
+  text-transform: uppercase;
+}
+
+.about-infor p {
+  font-size: 16px;
+  font-family: arial;
+  color: #222;
+  line-height: 30px;
+
+}
+
+.about-infor .about-my-cases-btn {
+  display: block;
+  width: fit-content;
+  font-size: 16px;
+  font-family: arial;
+  color: #fff;
+  padding: 15px;
+  background-color: #222;
+  text-transform: uppercase;
+  margin: 30px auto 0px;
+}
+/* CASES SECTION */
+.my-cases-wrapper {
+  width: 100%;
+  margin-top: 100px;
+}
+
+/* UX/UI PAGE SECTION */
+.my-cases-wrapper p {
+  width: 100%;
+  margin: 10px 0;
+  font-family: arial;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* DESKTOP STYLE AT 1000px */
+@media only screen and (min-width: 1000px) {
+  /* HEADER SECTION */
+  header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #F5F5F5;
+    z-index: 100;
+  }
+
+  header .hdr-wrapper {
+    width: 1000px;
+    margin: 0 auto;
+  }
+
+  header .mj-logo {
+    font-size: 24px;
+    font-family: fredoka;
+    font-weight: 900;
+    color: #279186;
+    text-transform: uppercase;
+    margin-left: 170px;
+    line-height: 60px;
+    float: left;
+  }
+
+  header ul {
+    width: fit-content;
+    float: left;
+    margin-left: 170px;
+  }
+
+  header ul li {
+    float: left;
+    list-style: none;
+    line-height: 40px;
+    position: relative;
+  }
+
+  header ul li a {
+    display: block;
+    font-family: fredoka;
+    font-size: 14px;
+    color: #222;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 30px;
+    cursor: pointer;
+  }
+
+  header ul li a:hover {
+    color: #279186;
+  }
+
+  header ul li ul {
+    display: none;
+    position: absolute;
+    margin-left: -30px;
+    background-color: #F5F5F5;
+    padding: 10px;
+  }
+
+  header ul li ul li {
+    text-align: center;
+    width: 180px;
+    line-height: 20px;
+  }
+
+  header ul li ul li a {
+    padding: 15px;
+    font-size: 14px;
+  }
+
+  header ul li:hover ul {
+    display: block;
+  }
+
+  header .get-in-touch {
+      width: fit-content;
+      display: block;
+      font-family: fredoka;
+      font-size: 14px;
+      color: #222;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 5px 0;
+      cursor: pointer;
+      margin-top: 15px;
+      float: right;
+      border-bottom: 3px solid #279186;
+  }
+
+  header .get-in-touch:hover {
+      color: #279186;
+      border-bottom: 3px solid #F5F5F5;
+  }
+
+  .wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #F5F5F5;
+  }
+
+  /* BANNER SECTION */
+
+  .header-banner {
+    display: flex;
+    flex-flow: row;
+  }
+
+  .header-banner .img {
+    width: 45%;
+    height: 550px;
+    background-image: url(../images/mjnamady.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+
+  .header-banner .mj-infor {
+    width: 55%;
+    display: table;
+  }
+
+.vertical-align {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+  .mj-infor h2 {
+    font-size: 30px;
+    margin-top: 90px;
+  }
+
+  .mj-infor p {
+    font-size: 20px;
+  }
+
+  /* ARTICLE SECTION */
+
+  .article {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .article h2 {
+    font-size: 30px;
+  }
+
+  .article p {
+    font-size: 16px;
+    border-bottom: none;
+    border-left: 2px dotted #279186;
+    border-right: 2px dotted #279186;
+  }
+
+  /* SAMPLE CASES SECTION */
+
+  .sample-cases {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  .sample-cases h2 {
+    font-size: 30px;
+    margin: 20px auto 10px;
+
+  }
+
+  .case-order {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .case01 {
+    width: 30%;
+    height: 200px;
+    }
+
+    .case01 h2 {
+      color: #fff;
+      padding-top: 15%;
+    }
+
+  .case02 {
+    width: 30%;
+    height: 200px;
+  }
+
+  .case02 h2 {
+    color: #fff;
+    padding-top: 15%;
+  }
+
+  .case03 {
+    display: block;
+  }
+
+  .case03 {
+    width: 30%;
+    height: 200px;
+  }
+
+  .case03 h2 {
+    color: #fff;
+    padding-top: 15%;
+  }
+
+  /* CONTACT ME SECTION */
+
+  .contact-me form {
+    width: 60%;
+  }
+
+  .social-media {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 50%;
+    border-top: none;
+    border-left: 3px dotted #279186;
+    margin: 0px 0 50px;
+  }
+
+  .social-media h2 {
+    display: block;
+  }
+
+  .social-media a {
+    margin: 10px 0 10px 230px;
+  }
+
+  .whatsapp {
+    margin-top: 20px;
+  }
+
+  .contact-wrapper {
+    display: flex;
+    flex-flow: row;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .contact-form {
+    width: 50%;
+  }
+
+  .social-media {
+    width: 50%;
+  }
+
+  /* FOOTER SECTION */
+
+  footer #copyR {
+    margin: 0 auto;
+  }
+
+  .mj-footer-infor {
+    width: 40%;
+    margin: 0 auto;
+  }
+
+  .footer-header-infor {
+    display: block;
+  }
+
+  .footer-header-infor ul li {
+    list-style: none;
+    text-align: right;
+    margin: 10px;
+  }
+
+  .footer-header-infor ul li a {
+    text-decoration: none;
+    font-size: 10px;
+    font-family: arial;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  .footer-header-infor h2 {
+    text-align: right;
+    font-size: 16px;
+    margin: 5px;
+  }
+
+  .footer-contact-num {
+    float: right;
+    width: fit-content;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    margin: 0 auto;
+  }
+
+  .footer-contact-num img {
+    width: 40px;
+  }
+
+  .footer-contact-num p {
+    font-size: 20px;
+    font-family: arial;
+    font-weight: 200;
+    color: #fff;
+    padding: 0px;
+  }
+
+  /* ABOUT-ME SECTION */
+
+  .about-wrapper {
+    position: relative;
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    background-color: #F5F5F5;
+    padding: 20px 0px 20px;
+  }
+
+  .wrapper .about-img {
+    width: 40%;
+    height: 500px;
+    background-position: center;
+  }
+
+  .wrapper .about-img h3 {
+    top: 30px;
+    right: -600px;
+    font-size: 24px;
+    width: 600px;
+    background-color: #279186;
+  }
+
+  .about-infor {
+    width: 50%;
+    padding: 70px 30px 0px;
+    margin-top: 70px;
+  }
+
+  .about-infor h2 {
+    font-size: 30px;
+    margin: 20px 0 10px;
+    }
+
+    /* UX/UI PAGE SECTION */
+    .my-cases-wrapper p {
+      width: 500px;
+      margin: 0 auto;
+    }
+
+}
+
+/* TEMPORARY
+
+ HEADER SECTION
+
+header {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100px;
+  background-color: #F5F5F5;
+  z-index: 100;
+}
+
+header .mj-logo {
+  font-size: 24px;
+  font-family: fredoka;
+  font-weight: 900;
+  color: #222;
+  text-transform: uppercase;
+  line-height: 100px;
+  margin-left: 30px;
+}
+
+header .get-in-touch {
+  display: none;
+}
+
+header .menu {
+  float: right;
+  width: 50px;
+  margin: 25px 30px 0;
+  display: block;
+}
+
+header nav .toggleUl {
+    display: none;
+    width: 150px;
+    height: 200px;
+    padding: 5px;
+    background-color: rgba(245, 245, 245, 0.8);
+    float: right;
+}
+
+header nav ul li {
+  list-style: none;
+  margin: 40px 0;
+  text-align: center;
+}
+
+header nav ul li ul {
+  position: absolute;
+  top: 100px;
+  right: 160px;
+  display: none;
+  width: 150px;
+  height: fit-content;
+  padding: 5px;
+  background-color: rgba(245, 245, 245, 0.8);
+  float: right;
+}
+
+header nav ul li a {
+  font-size: 16px;
+  font-family: fredoka;
+  font-weight: 100;
+  color: #000;
+  text-transform: uppercase;
+}
+
+header nav ul li a:hover {
+  color: #279186;
+}
+
+#sub-menu {
+  visibility: hidden;
+}
+
+*/
